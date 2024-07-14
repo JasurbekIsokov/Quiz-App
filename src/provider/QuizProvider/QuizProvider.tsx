@@ -1,13 +1,12 @@
-import React, { ReactNode, useMemo, useState } from "react";
+import { ReactNode, useMemo, useState } from "react";
 import { QuizBtnContext } from "../../lib/context/QuizContext";
 
 interface QuizBtnProviderProps {
-  initialQuizBtn?: string;
   children: ReactNode;
 }
 
 const QuizBtnProvider = (props: QuizBtnProviderProps) => {
-  const { initialQuizBtn, children } = props;
+  const { children } = props;
 
   const [currentQuizNumber, setCurrentQuizNumber] = useState(1);
   const [isSelectedAnswer, setIsSelectedAnswer] = useState(false);

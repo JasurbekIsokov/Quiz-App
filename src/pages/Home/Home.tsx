@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 
 import { quizData } from "../../constants/quizList/QuizList";
 import { QuizBtnContext } from "../../lib/context/QuizContext";

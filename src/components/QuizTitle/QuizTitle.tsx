@@ -1,5 +1,3 @@
-import React from "react";
-
 import cls from "./QuizTitle.module.scss";
 import { classNames } from "../../helpers/classNames/classNames";
 
