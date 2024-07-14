@@ -1,13 +1,9 @@
 import { useContext, useEffect, useState } from "react";
 
 import { styled } from "@mui/material/styles";
-import { Dialog } from "@mui/material";
-import DialogTitle from "@mui/material/DialogTitle";
-import DialogContent from "@mui/material/DialogContent";
-import DialogActions from "@mui/material/DialogActions";
-import IconButton from "@mui/material/IconButton";
+import { Dialog, DialogTitle, DialogContent, IconButton } from "@mui/material";
+
 import CloseIcon from "@mui/icons-material/Close";
-import Typography from "@mui/material/Typography";
 
 import cls from "./Footer.module.scss";
 import { classNames } from "../../helpers/classNames/classNames";
