@@ -8,7 +8,6 @@ const Header = () => {
   const {
     currentQuizNumber,
     ansvers,
-    setCurrentQuizNumber,
     setIsSelectedAnswer,
     setIsCheckedAnswer,
     setIsCorrectAnswer,

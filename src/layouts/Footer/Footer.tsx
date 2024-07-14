@@ -1,4 +1,4 @@
-import { memo, useContext } from "react";
+import { useContext } from "react";
 
 import cls from "./Footer.module.scss";
 import { classNames } from "../../helpers/classNames/classNames";
