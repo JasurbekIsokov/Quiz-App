@@ -8,7 +8,7 @@ import { IoClose } from "react-icons/io5";
 import { QuizBtnContext } from "../../lib/context/QuizContext";
 import { quizData } from "../../constants/quizList/QuizList";
 
-const Footer = memo(() => {
+const Footer = () => {
   const {
     isSelectedAnswer,
     isCorrectAnswer,
@@ -124,6 +124,6 @@ const Footer = memo(() => {
       </div>
     </div>
   );
-});
+};
 
 export default Footer;

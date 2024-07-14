@@ -9,14 +9,14 @@ export const quizData: QuizType[] = [
     correctAnswer: "Don Norman",
   },
   {
-    quizNumber: 1,
+    quizNumber: 2,
     type: "single",
     question: "Front-end sohasida eng ko'p ishlatiladigan dasturlash tili?",
     options: ["C++", "Java", "JavaScript", "Python"],
     correctAnswer: "JavaScript",
   },
   {
-    quizNumber: 2,
+    quizNumber: 3,
     type: "multi",
     question: "Yaxshi UX dizaynerda qanday xususiyatlar bo‘lishi kerak?",
     options: [
@@ -47,7 +47,7 @@ export const quizData: QuizType[] = [
   },
   {
     type: "inputText",
-    quizNumber: 4,
+    quizNumber: 5,
     question:
       "Har bir bo'sh joyni mos so'z bilan to'ldirib, gaplarni oxiriga yetkazing",
     options: [

@@ -70,8 +70,11 @@ const MultiChoiseQuiz: React.FC<QuestionProps> = ({
       setSelectedOptions(ansvers[currentQuizNumber].ans);
       setIsSelectedAnswer(true);
       setIsCheckedAnswer(true);
+    } else {
+      setIsSelectedAnswer(false);
+      setIsCheckedAnswer(false);
     }
-  }, [ansvers, currentQuizNumber]);
+  }, [currentQuizNumber]);
 
   return (
     <FormGroup>

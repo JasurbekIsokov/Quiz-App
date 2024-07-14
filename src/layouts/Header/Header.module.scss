@@ -1,11 +1,59 @@
 .header {
-  width: 100vw;
-  height: 70px;
+  max-width: 768px;
+  height: 100%;
   font-size: 24px;
-  background-color: #193c47;
-  color: #fff;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  margin: 0 auto;
+
+  &__quizNumbersBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+
+    &--quizBox {
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #0f172a;
+      border-radius: 10px;
+      // cursor: pointer;
+    }
+  }
+
+  .activeQuizBox {
+    background-color: #193c47;
+    border-color: #193c47;
+    color: #fff;
+  }
+
+  .correctQuizBox {
+    background-color: #179e7e;
+    border-color: #179e7e;
+    color: #fff;
+  }
+
+  .mistakeQuizBox {
+    background-color: #c62a2f;
+    border-color: #c62a2f;
+    color: #fff;
+  }
+
+  &__quizNumbers {
+    font-size: 24px;
+    border-bottom: 5px solid #0f172a;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
 }
