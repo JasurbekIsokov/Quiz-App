@@ -56,6 +56,31 @@ export const quizData: QuizType[] = [
     ],
     correctAnswer: ["javascript", "css"],
   },
+
+  {
+    type: "multi",
+    quizNumber: 6,
+    question: "JavaScriptda ma'lumot turlarini belgilang | (data types)",
+    options: [
+      "String",
+      "Number",
+      "Boolean",
+      "Undefined",
+      "Null",
+      "Symbol",
+      "BigInt",
+      "NaN",
+    ],
+    correctAnswer: [
+      "String",
+      "Number",
+      "Boolean",
+      "Undefined",
+      "Null",
+      "Symbol",
+      "BigInt",
+    ],
+  },
   // {
   //   quizNumber: 3,
   //   type: "fill",
