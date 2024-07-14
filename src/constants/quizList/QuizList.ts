@@ -45,6 +45,17 @@ export const quizData: QuizType[] = [
     options: ["True", "False"],
     correctAnswer: "True",
   },
+  {
+    type: "inputText",
+    quizNumber: 4,
+    question:
+      "Har bir bo'sh joyni mos so'z bilan to'ldirib, gaplarni oxiriga yetkazing",
+    options: [
+      "React bu $ dasturlash tili kutubxonasi.",
+      "SASS (SCSS), $ ning preprocessori hisoblanadi.",
+    ],
+    correctAnswer: ["javascript", "css"],
+  },
   // {
   //   quizNumber: 3,
   //   type: "fill",

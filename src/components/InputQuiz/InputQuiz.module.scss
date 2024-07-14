@@ -1,0 +1,46 @@
+.SingleChoise {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  div {
+    border: 2px solid #d0d0d0;
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  div.activeOption {
+    border: 2px solid #444;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+
+  div.correctOption {
+    border: 2px solid #0e9888;
+    background-color: #e7f9f5;
+  }
+
+  div.mistakeOption {
+    border: 2px solid #d93d42;
+    background-color: #ffefef;
+  }
+}
+
+.TextInput {
+  width: 100px;
+  margin-left: 5px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+
+  &.correctOption {
+    border-color: #0e9888;
+    background-color: #e7f9f5;
+  }
+
+  &.mistakeOption {
+    border-color: #d93d42;
+    background-color: #ffefef;
+  }
+}

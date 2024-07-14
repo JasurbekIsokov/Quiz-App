@@ -1,5 +1,5 @@
 export interface QuizType {
-  type: "single" | "multi";
+  type: "single" | "multi" | "inputText";
   quizNumber: number;
   question: string;
   options: string[];
