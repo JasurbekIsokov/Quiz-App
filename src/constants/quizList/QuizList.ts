@@ -18,7 +18,7 @@ export const quizData: QuizType[] = [
   {
     quizNumber: 2,
     type: "multi",
-    question: "2. Yaxshi UX dizaynerda qanday xususiyatlar bo‘lishi kerak?",
+    question: "Yaxshi UX dizaynerda qanday xususiyatlar bo‘lishi kerak?",
     options: [
       "Chioriyli UI elementlarini chizish",
       "Yaxshi tinglovchi bo‘la olish",

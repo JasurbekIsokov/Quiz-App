@@ -32,6 +32,10 @@ const SingleChoiseQuiz: React.FC<QuestionProps> = ({
   } = useContext(QuizBtnContext);
 
   const handleClickAns = (option: string) => {
+    if ((isSelectedAnswer || !isSelectedAnswer) && isCheckedAnswer) {
+      return;
+    }
+
     setSelectedOption(option);
     setIsSelectedAnswer(true);
   };

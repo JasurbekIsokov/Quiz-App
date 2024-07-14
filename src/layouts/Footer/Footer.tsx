@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { memo, useContext } from "react";
 
 import cls from "./Footer.module.scss";
 import { classNames } from "../../helpers/classNames/classNames";
@@ -8,7 +8,7 @@ import { IoClose } from "react-icons/io5";
 import { QuizBtnContext } from "../../lib/context/QuizContext";
 import { quizData } from "../../constants/quizList/QuizList";
 
-const Footer = () => {
+const Footer = memo(() => {
   const {
     isSelectedAnswer,
     isCorrectAnswer,
@@ -124,6 +124,6 @@ const Footer = () => {
       </div>
     </div>
   );
-};
+});
 
 export default Footer;

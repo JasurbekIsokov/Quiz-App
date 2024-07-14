@@ -1,0 +1,36 @@
+.SingleChoise {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  div {
+    border: 2px solid #d0d0d0;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+      border-color: #444;
+    }
+  }
+
+  div.activeOption {
+    border: 2px solid #444;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f7f7f7;
+
+    &:hover {
+      border-color: #444;
+    }
+  }
+
+  div.correctOption {
+    border: 2px solid #0e9888;
+    background-color: #e7f9f5;
+  }
+
+  div.mistakeOption {
+    border: 2px solid #d93d42;
+    background-color: #ffefef;
+  }
+}
